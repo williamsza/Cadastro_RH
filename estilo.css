@@ -1,0 +1,68 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: helvetica, sans-serif;
+                    color: #323232;
+                    border: none;
+                }
+                
+                body {
+                    background-color: #1b2029;
+                    color: white;
+                    font-weight: 500;
+                    display: flax;
+                    min-height: 100vh;
+                }
+                
+                main {
+                    width: 50vw;
+                    color: red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                main h1 {
+                    margin-top: 1rem;
+                    color: #8880fe;
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                }
+                
+                main container {
+                    color: yellow;
+                    display: flax;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                label {
+                    font-size: 1.1rem;
+                    margin-top: 2rem;
+                    color: white;
+                    display: flax;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                #div {
+                    display: flax;
+                    flex-direction: column;
+                }
+                
+                main input {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #161923;
+                    width: 300px;
+                    height: 20px;
+                    padding: 0 0.5rem;
+                    outline: none;
+                    color: rgba(166, 166, 166);
+                    border: 1px solid, #040b18;
+                    border-radius: 8px;
+                }
+                
+                main form {}
