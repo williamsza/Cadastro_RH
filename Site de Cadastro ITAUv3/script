@@ -1,0 +1,20 @@
+
+var userName = "william"
+var nome = ""
+var cpf = "192.455.332-97"
+var numeroCpf = ""
+if(nome == userName && cpf == numeroCpf){
+    return "Acesso liberado"
+} else {
+    "Seu Nome ou CPf inválidos, digite novamente"
+
+
+    var userName = "William"
+var nome = ""
+var cpf = "192.455.332-97"
+var numeroCpf = ""
+if(nome == userName && cpf == numeroCpf){
+    return "Acesso liberado"
+} else {
+    "Seu Nome ou CPf inválidos, digite novamente"
+}
