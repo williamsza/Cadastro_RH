@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+
 </head>
 
 <body>
@@ -16,30 +17,42 @@
                 <legend>Cadastro Pessoal - Atraçao</legend>
             </fieldset>
             <fieldset>
-                <legend>Dados Pessoais</legend>
+                <legend>Informações do Candidato</legend>
                 <div class="row "></div>
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="off" required maxlength="25">
                 <div class="row "></div>
                 <label for="email">E-mail</label>
-                <input type="text" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                <input type="text" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required maxlength="50">
                 <div class=" row "></div>
                 <label for="RG">RG</label>
-                <input type="text" id="RG" name="RG" placeholder="Digite seu RG" autocomplete="off" required>
+                <input type="text" id="RG" name="RG" placeholder="Digite seu RG" autocomplete="off" required maxlength="11">
 
                 <div class="row"></div>
                 <label for="CPF">CPF</label>
-                <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF" autocomplete="off" required>
+                <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF" autocomplete="off" required maxlength="12">
+
+
+                <div class="row"></div>
+                <label for="sexo">Sexo</label>
+
+
+
+                <SELECT NAME="menu" SIZE=1>
+                    <OPTION>Selecione
+                    <OPTION>Masculino
+                    <OPTION>Feminino
+                    </SELECT>
 
 
                 <div class="row"></div>
                 <label for="TELEONE">Telefone fixo</label>
-                <input type="text" id="TELEONE" name="TELEONE" placeholder="Digite seu telefone" autocomplete="off" required>
+                <input type="text" id="TELEONE" name="TELEONE" placeholder="Digite seu telefone" autocomplete="off" required maxlength="10">
 
 
                 <div class="row"></div>
                 <label for="CELULAR">Celular</label>
-                <input type="text" id="CELULAR" name="CELULAR" placeholder="Digite seu celular" autocomplete="off" required>
+                <input type="text" id="CELULAR" name="CELULAR" placeholder="Digite seu celular" autocomplete="off" required maxlength="11">
 
             </fieldset>
 
@@ -69,8 +82,11 @@
                 <input type="submit">
                 <input type="reset">
 
-        </form>
-        </div>
+                <script>
+                </script>
+
+
+            </div>
 
 </body>
 
